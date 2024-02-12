@@ -1,0 +1,83 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="design.css" />
+    <link rel="icon" href="images/favicon.ico" />
+    <title>Hand Cricket Offline</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="left">
+        <button
+          class="throw"
+          onclick="ChangeImage('/images/throw/defence-export.png')"
+        >
+          <img
+            class="throwicons"
+            src="/images/throw/defence-export.png"
+            alt=""
+          />
+        </button>
+        <button
+          class="throw"
+          onclick="ChangeImage('images/throw/one-export.png')"
+        >
+          <img src="images/throw/one-export.png" alt="" />
+        </button>
+        <button
+          class="throw"
+          onclick="ChangeImage('images/throw/two-export.png')"
+        >
+          <img src="images/throw/two-export.png" alt="" />
+        </button>
+        <button
+          class="throw"
+          onclick="ChangeImage('images/throw/three-export.png')"
+        >
+          <img src="images/throw/three-export.png" alt="" />
+        </button>
+        <button
+          class="throw"
+          onclick="ChangeImage('images/throw/four-export.png')"
+        >
+          <img src="images/throw/four-export.png" alt="" />
+        </button>
+        <button
+          class="throw"
+          onclick="ChangeImage('images/throw/five-export.png')"
+        >
+          <img src="images/throw/five-export.png" alt="" />
+        </button>
+        <button class="throw" onclick="ChangeImage('images/throw/six.png')">
+          <img src="images/throw/six.png" alt="" />
+        </button>
+      </div>
+      <div id="right">
+        <div id="top"></div>
+        <div id="mid">
+          <div class="middiv" id="midleft">
+            <img
+              class="placeholderimg"
+              id="placeholderImgLeft"
+              src="images/blck.jpg"
+              alt=""
+            />
+          </div>
+          <div class="middiv" id="midright">
+            <img
+              class="placeholderimg"
+              id="placeholderImgRight"
+              src="images/blck.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div id="bottom"></div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
